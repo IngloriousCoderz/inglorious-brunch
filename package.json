@@ -1,0 +1,41 @@
+{
+  "name": "brunch-prototype",
+  "version": "1.0.0",
+  "private": true,
+  "jest": {
+    "scriptPreprocessor": "preprocessor.js",
+    "testFileExtensions": [
+      "coffee",
+      "litcoffee",
+      "coffee.md",
+      "js"
+    ],
+    "moduleFileExtensions": [
+      "coffee",
+      "litcoffee",
+      "coffee.md",
+      "js"
+    ]
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "jest && brunch w"
+  },
+  "devDependencies": {
+    "appcache-brunch": "^1.7.1",
+    "browser-sync-brunch": "0.0.9",
+    "brunch": "^1.8.5",
+    "coffee-script": "^1.10.0",
+    "coffee-script-brunch": "^1.8.2",
+    "csso-brunch": "^1.0.1",
+    "git-digest-brunch": "^1.0.3",
+    "gzip-brunch": "^1.3.0",
+    "jaded-brunch": "^1.7.13",
+    "javascript-brunch": "^1.7.1",
+    "jest-cli": "^0.5.5",
+    "jstransformer-markdown-it": "^0.1.0",
+    "stylus-brunch": "^1.8.1",
+    "uglify-js-brunch": "^1.7.8",
+    "version-brunch": "^1.0.1"
+  }
+}

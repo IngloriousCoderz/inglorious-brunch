@@ -1,0 +1,8 @@
+h2 Things to do:
+
+ul#mainTodo.tasks
+  each item in items
+    li
+      = item.name
+      if item.check
+        | &nbsp;&#10004;

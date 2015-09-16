@@ -1,0 +1,25 @@
+doctype html
+html
+  //(manifest='appcache.appcache')
+  head
+    meta(charset='utf-8')
+    title Inglorious Brunch
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Ubuntu', type='text/css')
+    link(rel='stylesheet', href='app.css')
+  body
+    h1 Inglorious Brunch
+      small &nbsp;• A simple prototype developed with Brunch
+    
+    // markdown text inside the Jade template! ^^
+    :markdown-it
+      This demo uses Jade, CoffeeScript and Stylus; Jest for testing.
+    
+      ## Commands:
+      
+      - `npm test` performs tests
+      - `npm start` performs tests and then starts
+        [http://localhost:3000](http://localhost:3000) in browserSync
+    
+    script(src='libraries.js')
+    script(src='app.js')
+    script require('application').init();
