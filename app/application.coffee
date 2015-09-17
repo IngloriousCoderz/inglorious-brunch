@@ -12,7 +12,7 @@ App =
   init: ->
     tmpl = require 'views/list'
     html = tmpl items: App.items
-    document.getElementsByTagName('body')[0].innerHTML += html
+    document.body.innerHTML += html
     return
 
 module.exports = App
