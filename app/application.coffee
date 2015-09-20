@@ -12,7 +12,10 @@ App =
   init: ->
     tmpl = require 'views/list'
     html = tmpl items: App.items
-    document.body.innerHTML += html
+    $('body').append html
+
+    sum = require 'sum'
+    console.log "The sum of 2 + 3 is #{sum  2, 3}"
     return
 
 module.exports = App

@@ -1,0 +1,8 @@
+{
+  "name": "inglorious-brunch",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
